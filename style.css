@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 10%;
+  background-color: rgb(248, 210, 210);
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  color: black;
+  border-right: solid black 1px;
+  padding: 0 10%;
+}
+
+nav li:nth-child(4) {
+  border-right: none;
+}
+
+a,
+a:visited {
+  color: black;
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: white;
+}
